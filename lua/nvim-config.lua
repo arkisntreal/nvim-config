@@ -21,6 +21,3 @@ vim.g.loaded_netrwPlugin = 1
 --  True COLORS!!!
 vim.opt.termguicolors = true
 
---  Do not hide anything from me
-vim.opt.conceallevel = 0
-
