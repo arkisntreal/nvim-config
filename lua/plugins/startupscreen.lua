@@ -1,3 +1,4 @@
+--[[
 return {
 	"startup-nvim/startup.nvim",
 	dependencies = {
@@ -10,3 +11,4 @@ return {
 		})
 	end,
 }
+]]--

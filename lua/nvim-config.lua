@@ -21,3 +21,12 @@ vim.g.loaded_netrwPlugin = 1
 --  True COLORS!!!
 vim.opt.termguicolors = true
 
+--  Minimum number of lines to keep above and below the cursor
+vim.opt.scrolloff = 20
+
+--  Set highlight on search, clear on pressing <esc> in normal mode
+vim.opt.hlsearch = true
+vim.keymap.set("n", "<esc>", "<cmd>nohlsearch<cr>")
+
+--  Set keymap for undotree
+vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
